@@ -12,8 +12,16 @@ body {
     font-family: Roboto;
 }
 
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
 .header {
     background-color: var(--main-background);
+    padding-top: 24px;
+    padding-bottom: 25px;
 }
 
 .header-logo {
@@ -60,6 +68,8 @@ body {
 
 .main-hero {
     background-color: var(--footer-background);
+    padding-top: 200px;
+    padding-bottom: 200px;
 }
 
 .hero-title {
@@ -84,8 +94,9 @@ body {
     letter-spacing: 0.96px;
 }
 
-.main-decision, .main-services {
+.main-decision {
     background-color: var(--main-background);
+    padding-top: 94px;
 }
 
 .decision-title {
@@ -105,6 +116,12 @@ body {
     letter-spacing: 0.42px;
 }
 
+.main-services {
+    background-color: var(--main-background);
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
 .services-title {
     color: var(--title-color);
     text-align: center;
@@ -116,6 +133,8 @@ body {
 
 .main-team {
     background-color: var(--team-background);
+    padding-top: 94px;
+    padding-bottom: 94px;
 }
 
 .team-title {
@@ -147,6 +166,8 @@ body {
 
 .footer {
     background-color: var(--footer-background);
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 
 .footer-logo {
@@ -176,8 +197,19 @@ body {
     letter-spacing: 0.42px;
 }
 
+.portfolio-header {
+    background-color: var(--main-background);
+    padding-top: 24px;
+    padding-bottom: 25px;
+}
+
 .portfolio-main {
     color: var(--main-background);
+}
+
+.main-portfolio {
+    padding-top: 94px;
+    padding-bottom: 94px;
 }
 
 .button-btn {
@@ -213,4 +245,6 @@ body {
 
 .portfolio-footer {
     background-color: var(--footer-background);
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
