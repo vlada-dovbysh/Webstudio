@@ -24,6 +24,11 @@ body {
     padding-bottom: 25px;
 }
 
+.header-box {
+    display: flex;
+    align-items: center;
+}
+
 .header-logo {
     color: var(--logo-color);
     font-family: Raleway;
@@ -31,6 +36,21 @@ body {
     font-weight: 700;
     line-height: 1.38;
     letter-spacing: 0.78px;
+    display: flex;
+    justify-content: flex-start;
+    margin-right: 93px;
+}
+
+.nav-list {
+    display: flex;
+    gap: 50px;
+    margin-right: 344px;
+}
+
+.header-list {
+    display: flex;
+    gap: 50px;
+    justify-content: flex-end;
 }
 
 .logo-color {
@@ -72,6 +92,13 @@ body {
     padding-bottom: 200px;
 }
 
+.main-hero > .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
 .hero-title {
     color: var(--main-background);
     text-align: center;
@@ -92,11 +119,19 @@ body {
     font-weight: 700;
     line-height: 1.875; /* 187.5% */
     letter-spacing: 0.96px;
+    padding: 10px 32px;
+    border-radius: 4px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
 
 .main-decision {
     background-color: var(--main-background);
     padding-top: 94px;
+}
+
+.decision-list {
+    display: flex;
+    gap: 30px;
 }
 
 .decision-title {
@@ -114,6 +149,8 @@ body {
     font-weight: 400;
     line-height: 1.71; /* 171.429% */
     letter-spacing: 0.42px;
+    width: 270px;
+    margin-top: 10px;
 }
 
 .main-services {
@@ -131,6 +168,12 @@ body {
     letter-spacing: 1.08px;
 }
 
+.services-list {
+    display: flex;
+    gap: 30px;
+    margin-top: 50px;
+}
+
 .main-team {
     background-color: var(--team-background);
     padding-top: 94px;
@@ -146,6 +189,21 @@ body {
     letter-spacing: 1.08px;
 }
 
+.team-list {
+    display: flex;
+    gap: 30px;
+    margin-top: 50px;
+    justify-content: center;
+}
+
+.team-item {
+   background-color: var(--main-background);
+}
+
+.team-img {
+    width: 270px;
+}
+
 .team-name {
     color: var(--title-color);
     text-align: center;
@@ -153,6 +211,8 @@ body {
     font-weight: 500;
     line-height: 1.18;
     letter-spacing: 0.48px;
+    margin-top: 30px;
+    margin-bottom: 10px;
 }
 
 .team-text {
@@ -162,6 +222,7 @@ body {
     font-weight: 400;
     line-height: 1.18;
     letter-spacing: 0.48px;
+    margin-bottom: 30px;
 }
 
 .footer {
@@ -177,6 +238,19 @@ body {
     font-weight: 700;
     line-height: 1.38;
     letter-spacing: 0.78px;
+}
+
+.footer-address {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+}
+
+.address-list{
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
 }
 
 .footer-link {
