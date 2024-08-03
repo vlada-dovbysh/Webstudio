@@ -88,7 +88,7 @@ body {
 }
 
 .main-hero {
-    background-image: url(../images/people-background.jpg), url(../images/overlay.jpg);
+    background-image: linear-gradient(rgba(47, 48, 58, 0.40), rgba(47, 48, 58, 0.40)), url(../images/people-background.jpg);
     padding-top: 200px;
     padding-bottom: 200px;
 }
@@ -121,6 +121,7 @@ body {
     line-height: 1.875; /* 187.5% */
     letter-spacing: 0.96px;
     padding: 10px 32px;
+    border: transparent;
     border-radius: 4px;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
@@ -239,6 +240,7 @@ body {
     flex-basis: calc((100% - 60px) /4);
    border-radius: 0px 0px 4px 4px;
    background-color: var(--main-background);
+   box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.12), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 2px 1px 0px rgba(0, 0, 0, 0.20);
 }
 
 .team-img {
@@ -369,6 +371,10 @@ body {
     flex-basis: calc((100% - 60px) / 3);
     border: 1px solid #EEE;
     background: var(--main-background);
+}
+
+.card-item:hover, .card-item:focus {
+    box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.12), 0px 4px 4px 0px rgba(0, 0, 0, 0.06), 1px 4px 6px 0px rgba(0, 0, 0, 0.16);
 }
 
 .cardt{
